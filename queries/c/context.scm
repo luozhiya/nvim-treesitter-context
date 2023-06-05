@@ -16,7 +16,7 @@
 ) @context
 
 (if_statement
-  consequence: (_ (_) @context.end)
+  consequence: ((compound_statement)? @context.end)
 ) @context
 
 (while_statement
